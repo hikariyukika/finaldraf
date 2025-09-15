@@ -1,0 +1,91 @@
+/* Custom styles for Batak Adat theme */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.hero-section {
+    background: url('img/AFZ_3350.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+
+
+.navbar {
+    background-color: #333 !important;
+}
+
+.card {
+    border: 2px solid #DC143C;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #DC143C;
+}
+
+.btn-primary {
+    background-color: #DC143C;
+    border-color: #DC143C;
+}
+
+.btn-primary:hover {
+    background-color: #B22222;
+    border-color: #B22222;
+}
+
+footer {
+    background-color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .display-5 {
+        font-size: 2rem;
+    }
+}
+
+/* Countdown cards styling */
+#countdown .card {
+    min-width: 100px;
+    background-color: rgba(220, 20, 60, 0.8);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(220, 20, 60, 0.7);
+    padding: 20px 10px;
+}
+
+#countdown .countdown-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Handwriting font for mempelai names */
+.handwriting-font {
+    font-family: 'Brush Script MT', cursive, sans-serif;
+}
+
+.card .card-body .mempelai-name {
+    font-family: 'Brush Script MT', cursive, sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.card .card-body .mempelai-info {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
